@@ -5,6 +5,7 @@ ifeq ($(V), 0)
   trace-gen     = @echo "  GEN   " $@;
   trace-cc      = @echo "  CC    " $@;
   trace-cxx     = @echo "  CXX   " $@;
+  trace-cpp     = @echo "  CPP   " $@;
   trace-ld      = @echo "  LD    " $@;
   trace-ar      = @echo "  AR    " $@;
   trace-install = @echo "  INST  " $@;

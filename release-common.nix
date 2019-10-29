@@ -52,6 +52,7 @@ rec {
       bzip2 xz brotli editline
       openssl pkgconfig sqlite boehmgc
       boost
+      nixUnstable
 
       # Tests
       git
